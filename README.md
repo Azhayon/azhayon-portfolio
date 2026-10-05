@@ -53,7 +53,7 @@ No installation is needed.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Azhayon/<your-repo-name>.git
+   git clone https://github.com/Azhayon/azhayon-portfolio.git
    cd azhayon-portfolio
    ```
 2. Open `index.html` in your browser, or use the **Live Server** extension in VS Code for automatic reloading.
