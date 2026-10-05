@@ -1,0 +1,1024 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MD. Azizul Hakim Ayon — CSE Graduate, Full Stack Developer, Future Software Entrepreneur"
+    />
+    <title>MD. Azizul Hakim Ayon | Developer Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons (Boxicons - free) -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- ── NAVBAR ─────────────────────────────── -->
+    <nav class="navbar" id="navbar">
+      <div class="container nav-inner">
+        <a href="#hero" class="nav-logo"> AzH<span>Ayon</span> </a>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#goals">Goals</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#contact" class="btn-primary nav-cta">Let's Talk</a>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ── HERO ───────────────────────────────── -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-glow"></div>
+      <div class="container hero-inner">
+        <!-- Left: Text -->
+        <div class="hero-text">
+          <span class="eyebrow">👋 Available for work & collaboration</span>
+
+          <h1>
+            Building Ideas Into<br />
+            <span class="gradient-text">Digital Experiences</span>
+          </h1>
+
+          <p class="hero-sub">
+            Curious learner, persistent builder, and ambitious future
+            entrepreneur focused on creating meaningful software solutions.
+          </p>
+
+          <div class="hero-roles">
+            <span>BSc CSE Graduate</span>
+            <span>Full Stack Developer</span>
+            <span>Future Entrepreneur</span>
+          </div>
+
+          <div class="hero-btns">
+            <a href="#projects" class="btn-primary">
+              <i class="bx bx-code-alt"></i> View Projects
+            </a>
+            <a href="assets/resume.pdf" class="btn-outline" download>
+              <i class="bx bx-download"></i> Download CV
+            </a>
+            <a href="#contact" class="btn-ghost">
+              <i class="bx bx-envelope"></i> Contact Me
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://github.com/Azhayon" target="_blank" aria-label="GitHub">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/azhayon"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="bx bxl-linkedin"></i>
+            </a>
+            <a href="mailto:azizulhakimayonsheikh@gmail.com" aria-label="Email">
+              <i class="bx bx-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Avatar/Illustration -->
+        <div class="hero-visual">
+          <div class="hero-glow-ring"></div>
+          <div class="hero-avatar">
+            <img src="assets/images/profile.jpg" alt="MD. Azizul Hakim Ayon" />
+          </div>
+          <div class="hero-badge badge-1">
+            <i class="bx bx-code-curly"></i> Open to work
+          </div>
+          <div class="hero-badge badge-2">
+            <i class="bx bx-trophy"></i> CSE Graduate
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <a href="#about" class="scroll-indicator">
+        <i class="bx bx-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- ── ABOUT SECTION ─────────────────────────────────-->
+    <section class="about" id="about">
+      <div class="container">
+        <!-- Section header -->
+        <div class="section-header fade-up">
+          <span class="eyebrow">01 / About Me</span>
+          <h2>Who I <span class="gradient-text">Am</span></h2>
+          <p class="section-sub">
+            A developer who takes pride in clean code and meaningful products.
+          </p>
+        </div>
+
+        <!-- Two column layout -->
+        <div class="about__grid">
+          <!-- Left: Code block visual -->
+          <div class="about__code-block fade-up">
+            <div class="code-window">
+              <div class="code-window__bar">
+                <span class="dot dot--red"></span>
+                <span class="dot dot--yellow"></span>
+                <span class="dot dot--green"></span>
+                <span class="code-window__title">about-me.js</span>
+              </div>
+              <div class="code-window__body">
+                <pre><code><span class="c-keyword">const</span> <span class="c-var">ayon</span> <span class="c-op">=</span> {
+  <span class="c-prop">name</span><span class="c-op">:</span>    <span class="c-str">"MD. Azizul Hakim Ayon"</span>,
+  <span class="c-prop">role</span><span class="c-op">:</span>    <span class="c-str">"Full Stack Developer"</span>,
+  <span class="c-prop">based</span><span class="c-op">:</span>   <span class="c-str">"Bangladesh 🇧🇩"</span>,
+  <span class="c-prop">traits</span><span class="c-op">:</span>  [
+    <span class="c-str">"Curious"</span>,
+    <span class="c-str">"Persistent"</span>,
+    <span class="c-str">"Ambitious"</span>
+  ],
+  <span class="c-prop">goal</span><span class="c-op">:</span> <span class="c-str">"Build my own software company"</span>,
+  <span class="c-prop">learning</span><span class="c-op">:</span> <span class="c-str">"Always."</span>,
+  <span class="c-prop">availableFor</span><span class="c-op">:</span> [
+    <span class="c-str">"Junior Dev Roles"</span>,
+    <span class="c-str">"Internships"</span>,
+    <span class="c-str">"Freelance"</span>,
+    <span class="c-str">"Collaborations"</span>
+  ]
+}
+</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Text + stats -->
+          <div class="about__text fade-up delay-2">
+            <p class="about__bio">
+              I'm a Computer Science &amp; Engineering graduate with a deep
+              passion for building software that solves real problems. I believe
+              in writing clean, purposeful code — and I take pride in every
+              project I ship.
+            </p>
+            <p class="about__bio" style="margin-top: 14px">
+              My goal isn't just to get a job — it's to grow into a software
+              entrepreneur. Every line of code I write today is a step toward
+              building my own development studio in the future.
+            </p>
+
+            <!-- Stat cards -->
+            <div class="about__stats">
+              <div class="stat-card">
+                <span class="stat-number">3</span>
+                <span class="stat-label">Projects Built</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Technologies</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">1</span>
+                <span class="stat-label">Paper Under Review</span>
+              </div>
+            </div>
+
+            <a
+              href="assets/resume.pdf"
+              class="btn-outline"
+              download
+              style="
+                margin-top: 28px;
+                display: inline-flex;
+                gap: 8px;
+                align-items: center;
+              "
+            >
+              <iconify-icon icon="lucide:download" width="16"></iconify-icon>
+              Download Resume
+            </a>
+          </div>
+        </div>
+
+        <!-- Timeline -->
+        <div class="about__timeline fade-up delay-2" id="journey">
+          <h3 class="timeline__heading">Academic Journey</h3>
+          <div class="timeline">
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__card glass-card">
+                <span class="timeline__year">2019</span>
+                <h4 class="timeline__title">
+                  Secondary School Certificate (SSC)
+                </h4>
+                <p class="timeline__desc">
+                  Completed SSC — the first milestone. Developed a love for
+                  computers and problem solving.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__card glass-card">
+                <span class="timeline__year">2022</span>
+                <h4 class="timeline__title">
+                  Higher Secondary Certificate (HSC)
+                </h4>
+                <p class="timeline__desc">
+                  Completed HSC with a focus on science. Wrote my first lines of
+                  code during this period.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline__item timeline__item--active">
+              <div class="timeline__dot timeline__dot--active"></div>
+              <div class="timeline__card glass-card">
+                <span class="timeline__year">2022 – 2026</span>
+                <h4 class="timeline__title">
+                  BSc in Computer Science &amp; Engineering
+                </h4>
+                <p class="timeline__desc">
+                  Completed my BSc in Computer Science &amp; Engineering.
+                  Built full-stack and mobile projects, researched machine
+                  learning for smoking-cessation prediction, and kept working
+                  toward becoming a software entrepreneur.
+                </p>
+                <!-- <span class="timeline__badge">In Progress</span> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SKILLS SECTION ───────────────────────────────── -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <!-- Section header -->
+        <div class="section-header fade-up">
+          <span class="eyebrow">02 / Skills</span>
+          <h2>My Technical <span class="gradient-text">Arsenal</span></h2>
+          <p class="section-sub">
+            Technologies I work with, grouped by category.
+          </p>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="skills__tabs fade-up delay-1">
+          <button class="skills__tab active" data-filter="all">All</button>
+          <button class="skills__tab" data-filter="frontend">Frontend</button>
+          <button class="skills__tab" data-filter="backend">Backend</button>
+          <button class="skills__tab" data-filter="mobile">Mobile</button>
+          <button class="skills__tab" data-filter="database">Database</button>
+          <button class="skills__tab" data-filter="tools">Tools</button>
+        </div>
+
+        <!-- Skills grid -->
+        <div class="skills__grid fade-up delay-2">
+          <!-- FRONTEND -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-card__icon">
+              <iconify-icon icon="logos:html-5" width="36"></iconify-icon>
+            </div>
+            <h4 class="skill-card__name">HTML5</h4>
+            <div class="skill-bar">
+              <div class="skill-bar__fill" data-width="95"></div>
+            </div>
+            <span class="skill-card__tag">Frontend</span>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-card__icon">
+              <iconify-icon icon="logos:css-3" width="36"></iconify-icon>
+            </div>
+            <h4 class="skill-card__name">CSS3</h4>
+            <div class="skill-bar">
+              <div class="skill-bar__fill" data-width="90"></div>
+            </div>
+            <span class="skill-card__tag">Frontend</span>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-card__icon">
+              <iconify-icon icon="logos:javascript" width="36"></iconify-icon>
+            </div>
+            <h4 class="skill-card__name">JavaScript</h4>
+            <div class="skill-bar">
+              <div class="skill-bar__fill" data-width="90"></div>
+            </div>
+            <span class="skill-card__tag">Frontend</span>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-card__icon">
+              <iconify-icon
+                icon="logos:tailwindcss-icon"
+                width="36"
+              ></iconify-icon>
+            </div>
+            <h4 class="skill-card__name">Tailwind CSS</h4>
+            <div class="skill-bar">
+              <div class="skill-bar__fill" data-width="70"></div>
+            </div>
+            <span class="skill-card__tag">Frontend</span>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-card__icon">
+              <iconify-icon icon="logos:react" width="36"></iconify-icon>
+            </div>
+            <h4 class="skill-card__name">React</h4>
+            <div class="skill-bar">
+              <div class="skill-bar__fill" data-width="50"></div>
+            </div>
+            <span class="skill-card__tag">Learning</span>
+          </div>
+
+          <!-- BACKEND -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-card__icon">
+              <iconify-icon icon="logos:php" width="36"></iconify-icon>
+            </div>
+            <h4 class="skill-card__name">PHP</h4>
+            <div class="skill-bar">
+              <div class="skill-bar__fill" data-width="90"></div>
+            </div>
+            <span class="skill-card__tag">Backend</span>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div class="skill-card__icon">
+              <iconify-icon icon="logos:laravel" width="36"></iconify-icon>
+            </div>
+            <h4 class="skill-card__name">Laravel</h4>
+            <div class="skill-bar">
+              <div class="skill-bar__fill" data-width="60"></div>
+            </div>
+            <span class="skill-card__tag">Backend</span>
+          </div>
+
+          <!-- MOBILE -->
+          <div class="skill-card" data-category="mobile">
+            <div class="skill-card__icon">
+              <iconify-icon icon="logos:flutter" width="36"></iconify-icon>
+            </div>
+            <h4 class="skill-card__name">Flutter / Dart</h4>
+            <div class="skill-bar">
+              <div class="skill-bar__fill" data-width="80"></div>
+            </div>
+            <span class="skill-card__tag">Mobile</span>
+          </div>
+
+          <!-- DATABASE -->
+          <div class="skill-card" data-category="database">
+            <div class="skill-card__icon">
+              <iconify-icon icon="logos:mysql-icon" width="36"></iconify-icon>
+            </div>
+            <h4 class="skill-card__name">MySQL</h4>
+            <div class="skill-bar">
+              <div class="skill-bar__fill" data-width="90"></div>
+            </div>
+            <span class="skill-card__tag">Database</span>
+          </div>
+
+          <!-- TOOLS -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-card__icon">
+              <iconify-icon icon="logos:git-icon" width="36"></iconify-icon>
+            </div>
+            <h4 class="skill-card__name">Git</h4>
+            <div class="skill-bar">
+              <div class="skill-bar__fill" data-width="78"></div>
+            </div>
+            <span class="skill-card__tag">Tools</span>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div class="skill-card__icon">
+              <iconify-icon icon="mdi:github" width="36"></iconify-icon>
+            </div>
+            <h4 class="skill-card__name">GitHub</h4>
+            <div class="skill-bar">
+              <div class="skill-bar__fill" data-width="78"></div>
+            </div>
+            <span class="skill-card__tag">Tools</span>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div class="skill-card__icon">
+              <iconify-icon
+                icon="logos:visual-studio-code"
+                width="36"
+              ></iconify-icon>
+            </div>
+            <h4 class="skill-card__name">VS Code</h4>
+            <div class="skill-bar">
+              <div class="skill-bar__fill" data-width="88"></div>
+            </div>
+            <span class="skill-card__tag">Tools</span>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div class="skill-card__icon">
+              <iconify-icon icon="logos:figma" width="36"></iconify-icon>
+            </div>
+            <h4 class="skill-card__name">Figma</h4>
+            <div class="skill-bar">
+              <div class="skill-bar__fill" data-width="65"></div>
+            </div>
+            <span class="skill-card__tag">Tools</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+     PROJECTS SECTION
+══════════════════════════════════════════ -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <!-- Section header -->
+        <div class="section-header fade-up">
+          <span class="eyebrow">03 / Projects</span>
+          <h2>Things I've <span class="gradient-text">Built</span></h2>
+          <p class="section-sub">
+            A selection of projects I'm proud of. Updated as I build more.
+          </p>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="projects__tabs fade-up delay-1">
+          <button class="projects__tab active" data-filter="all">All</button>
+          <button class="projects__tab" data-filter="web">Web Dev</button>
+          <button class="projects__tab" data-filter="mobile">Mobile</button>
+        </div>
+
+        <!-- Projects grid -->
+        <div class="projects__grid fade-up delay-2" id="projectsGrid">
+          <div class="project-card" data-category="web">
+            <div class="project-card__image">
+              <img
+                src="assets/images/projects/project1.png"
+                alt="Anju Online Shop"
+                onerror="this.parentElement.classList.add('no-image')"
+              />
+              <span class="project-card__category">Web Dev</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Anju Online Shop</h3>
+              <p class="project-card__desc">
+                A full-stack e-commerce store for a family clothing business, with authentication, product management, cart and checkout, an admin panel, and user profiles.
+              </p>
+              <div class="project-card__stack">
+                <span class="stack-chip">React</span>
+                <span class="stack-chip">Redux</span>
+                <span class="stack-chip">Laravel 11</span>
+                <span class="stack-chip">MySQL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="mobile">
+            <div class="project-card__image">
+              <img
+                src="assets/images/projects/project2.png"
+                alt="Flutter Expense Tracker"
+                onerror="this.parentElement.classList.add('no-image')"
+              />
+              <span class="project-card__category">Mobile</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Expense Tracker</h3>
+              <p class="project-card__desc">
+                A cross-platform Flutter app for tracking personal expenses, built with Clean Architecture, Firebase for backend services, and Hive for local storage.
+              </p>
+              <div class="project-card__stack">
+                <span class="stack-chip">Flutter</span>
+                <span class="stack-chip">Dart</span>
+                <span class="stack-chip">Firebase</span>
+                <span class="stack-chip">Hive</span>
+                <span class="stack-chip">flutter_bloc</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- TODO: PC Builder — add real description, stack chips and correct category/data-category -->
+          <div class="project-card" data-category="web">
+            <div class="project-card__image">
+              <img
+                src="assets/images/projects/project3.png"
+                alt="PC Builder"
+                onerror="this.parentElement.classList.add('no-image')"
+              />
+              <span class="project-card__category">Web Dev</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">PC Fusion (PC Builder)</h3>
+              <p class="project-card__desc">
+                A beginner-friendly PC building platform that checks component compatibility and power use, suggests pre-builds by purpose, and lets users share community builds. Team project (4 members).
+              </p>
+              <div class="project-card__stack">
+                <span class="stack-chip">HTML</span>
+                <span class="stack-chip">CSS</span>
+                <span class="stack-chip">JavaScript</span>
+                <span class="stack-chip">PHP</span>
+              </div>
+              <div class="project-card__links">
+                <a
+                  href="https://github.com/Azhayon/pc-fusion-project"
+                  target="_blank"
+                  rel="noopener"
+                  class="project-link project-link--github"
+                >
+                  <iconify-icon icon="mdi:github" width="18"></iconify-icon>
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /projects__grid -->
+
+        <!-- View all on GitHub -->
+        <div class="projects__footer fade-up">
+          <a
+            href="https://github.com/Azhayon"
+            target="_blank"
+            class="btn-outline"
+          >
+            <iconify-icon icon="mdi:github" width="18"></iconify-icon>
+            View all projects on GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+     GOALS & VISION SECTION
+══════════════════════════════════════════ -->
+    <section class="goals" id="goals">
+      <div class="container">
+        <!-- Section header -->
+        <div class="section-header fade-up">
+          <span class="eyebrow">04 / Goals & Vision</span>
+          <h2>Where I'm <span class="gradient-text">Headed</span></h2>
+          <p class="section-sub">
+            I don't just write code — I'm building toward something bigger.
+          </p>
+        </div>
+
+        <!-- Roadmap -->
+        <div class="goals__roadmap fade-up delay-1">
+          <!-- Stage 1: Current -->
+          <div class="goal-stage goal-stage--active">
+            <div class="goal-stage__connector">
+              <div class="goal-stage__line"></div>
+            </div>
+            <div class="goal-stage__content">
+              <div class="goal-stage__icon">
+                <iconify-icon icon="lucide:code-2" width="26"></iconify-icon>
+              </div>
+              <div class="goal-stage__body glass-card">
+                <div class="goal-stage__meta">
+                  <span class="goal-stage__status goal-stage__status--now"
+                    >Now</span
+                  >
+                  <span class="goal-stage__year">2022 – Present</span>
+                </div>
+                <h3 class="goal-stage__title">Building & Job Hunting</h3>
+                <p class="goal-stage__desc">
+                  BSc in CSE completed. Now building portfolio projects,
+                  starting with a full-stack admin dashboard, while deepening my
+                  React, Node.js and Laravel skills and applying for junior
+                  developer roles.
+                </p>
+                <div class="goal-stage__tags">
+                  <span class="goal-tag">Full Stack Dev</span>
+                  <span class="goal-tag">Portfolio Projects</span>
+                  <span class="goal-tag">Freelancing</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stage 2: Next -->
+          <div class="goal-stage">
+            <div class="goal-stage__connector">
+              <div class="goal-stage__line"></div>
+            </div>
+            <div class="goal-stage__content">
+              <div class="goal-stage__icon goal-stage__icon--dim">
+                <iconify-icon icon="lucide:briefcase" width="26"></iconify-icon>
+              </div>
+              <div class="goal-stage__body glass-card">
+                <div class="goal-stage__meta">
+                  <span class="goal-stage__status goal-stage__status--next"
+                    >Next</span
+                  >
+                  <span class="goal-stage__year">2026 – 2028</span>
+                </div>
+                <h3 class="goal-stage__title">
+                  Professional Software Developer
+                </h3>
+                <p class="goal-stage__desc">
+                  Land a role at a product-driven company where I can ship real
+                  features, work with talented engineers, and grow from a
+                  developer into a technical leader.
+                </p>
+                <div class="goal-stage__tags">
+                  <span class="goal-tag">Product Company</span>
+                  <span class="goal-tag">Tech Lead</span>
+                  <span class="goal-tag">Remote Work</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stage 3: Future -->
+          <div class="goal-stage goal-stage--future">
+            <div class="goal-stage__connector"></div>
+            <div class="goal-stage__content">
+              <div class="goal-stage__icon goal-stage__icon--future">
+                <iconify-icon icon="lucide:rocket" width="26"></iconify-icon>
+              </div>
+              <div class="goal-stage__body glass-card goal-stage__body--future">
+                <div class="goal-stage__meta">
+                  <span class="goal-stage__status goal-stage__status--future"
+                    >Future</span
+                  >
+                  <span class="goal-stage__year">2030+</span>
+                </div>
+                <h3 class="goal-stage__title">
+                  Founder — Software Development Company
+                </h3>
+                <p class="goal-stage__desc">
+                  Build and lead my own software development studio. Create
+                  products that solve real problems, build a team of passionate
+                  developers, and make a lasting impact through technology.
+                </p>
+                <div class="goal-stage__tags">
+                  <span class="goal-tag">Startup Founder</span>
+                  <span class="goal-tag">CEO</span>
+                  <span class="goal-tag">Product Studio</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /goals__roadmap -->
+
+        <!-- Bottom quote -->
+        <div class="goals__quote fade-up delay-2">
+          <blockquote>
+            "The best way to predict the future is to build it."
+          </blockquote>
+          <cite>— Alan Kay</cite>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+     ACHIEVEMENTS SECTION
+══════════════════════════════════════════ -->
+    <section class="achievements" id="achievements">
+      <div class="container">
+        <!-- Section header -->
+        <div class="section-header fade-up">
+          <span class="eyebrow">05 / Achievements</span>
+          <h2>
+            Research & <span class="gradient-text">Milestones</span>
+          </h2>
+          <p class="section-sub">
+            Work I've contributed to along the way.
+          </p>
+        </div>
+
+        <!-- Achievement cards grid -->
+        <div class="achievements__grid fade-up delay-1">
+          <div class="achievement-card">
+            <div class="achievement-card__icon achievement-card__icon--blue">
+              <iconify-icon icon="lucide:file-text" width="24"></iconify-icon>
+            </div>
+            <div class="achievement-card__body">
+              <span class="achievement-card__type">Research Paper</span>
+              <h4 class="achievement-card__title">
+                Analyzing Psychological Barriers to Smoking Cessation Using
+                Machine Learning
+              </h4>
+              <p class="achievement-card__issuer">
+                <iconify-icon
+                  icon="lucide:building-2"
+                  width="13"
+                ></iconify-icon>
+                <a href="https://beei.org/" target="_blank" rel="noopener"
+                  >Bulletin of Electrical Engineering and Informatics (BEEI)</a
+                >
+                · Q3 journal
+              </p>
+              <p class="achievement-card__date">
+                <iconify-icon icon="lucide:calendar" width="13"></iconify-icon>
+                2026
+              </p>
+            </div>
+            <div class="achievement-card__badge achievement-card__badge--blue">
+              Under Review
+            </div>
+          </div>
+        </div>
+        <!-- /achievements__grid -->
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+     CONTACT SECTION
+══════════════════════════════════════════ -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <!-- Section header -->
+        <div class="section-header fade-up">
+          <span class="eyebrow">06 / Contact</span>
+          <h2>Let's Work <span class="gradient-text">Together</span></h2>
+          <p class="section-sub">
+            Have a project in mind, want to collaborate, or just want to say hi?
+            My inbox is always open.
+          </p>
+        </div>
+
+        <!-- Two column layout -->
+        <div class="contact__grid fade-up delay-1">
+          <!-- Left: Info -->
+          <div class="contact__info">
+            <div class="contact__info-card glass-card">
+              <h3 class="contact__info-heading">Let's talk</h3>
+              <p class="contact__info-sub">
+                I'm currently open to internship opportunities, freelance
+                projects, and collaborations. Let's build something great
+                together.
+              </p>
+
+              <!-- Contact details -->
+              <div class="contact__details">
+                <a href="mailto:azizulhakimayonsheikh@gmail.com" class="contact__detail">
+                  <div class="contact__detail-icon">
+                    <iconify-icon icon="lucide:mail" width="18"></iconify-icon>
+                  </div>
+                  <div>
+                    <span class="contact__detail-label">Email</span>
+                    <span class="contact__detail-value">azizulhakimayonsheikh@gmail.com</span>
+                  </div>
+                </a>
+
+                <a
+                  href="https://github.com/Azhayon"
+                  target="_blank"
+                  class="contact__detail"
+                >
+                  <div class="contact__detail-icon">
+                    <iconify-icon icon="mdi:github" width="18"></iconify-icon>
+                  </div>
+                  <div>
+                    <span class="contact__detail-label">GitHub</span>
+                    <span class="contact__detail-value"
+                      >https://github.com/Azhayon</span
+                    >
+                  </div>
+                </a>
+
+                <a
+                  href="https://linkedin.com/in/azhayon"
+                  target="_blank"
+                  class="contact__detail"
+                >
+                  <div class="contact__detail-icon">
+                    <iconify-icon icon="mdi:linkedin" width="18"></iconify-icon>
+                  </div>
+                  <div>
+                    <span class="contact__detail-label">LinkedIn</span>
+                    <span class="contact__detail-value"
+                      >www.linkedin.com/in/azhayon</span
+                    >
+                  </div>
+                </a>
+
+                <div class="contact__detail">
+                  <div class="contact__detail-icon">
+                    <iconify-icon
+                      icon="lucide:map-pin"
+                      width="18"
+                    ></iconify-icon>
+                  </div>
+                  <div>
+                    <span class="contact__detail-label">Location</span>
+                    <span class="contact__detail-value">Bangladesh 🇧🇩</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Availability badge -->
+              <div class="contact__availability">
+                <span class="availability-dot"></span>
+                Available for work — Response within 24 hours
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Form -->
+          <div class="contact__form-wrap">
+            <form
+              class="contact__form glass-card"
+              id="contactForm"
+              action="https://formspree.io/f/mojzakao"
+              method="POST"
+            >
+              <!-- Name + Email row -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-input"
+                    placeholder="Your full name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-input"
+                    placeholder="your@email.com"
+                    required
+                  />
+                </div>
+              </div>
+
+              <!-- Subject -->
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  class="form-input"
+                  placeholder="What's this about?"
+                  required
+                />
+              </div>
+
+              <!-- Message -->
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-input form-textarea"
+                  placeholder="Tell me about your project or just say hi..."
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+
+              <!-- Submit -->
+              <button
+                type="submit"
+                class="btn-primary form-submit"
+                id="submitBtn"
+              >
+                <iconify-icon icon="lucide:send" width="16"></iconify-icon>
+                <span id="submitText">Send Message</span>
+              </button>
+
+              <!-- Success / Error messages -->
+              <div class="form-success" id="formSuccess">
+                <iconify-icon
+                  icon="lucide:check-circle"
+                  width="20"
+                ></iconify-icon>
+                Message sent! I'll get back to you within 24 hours.
+              </div>
+              <div class="form-error" id="formError">
+                <iconify-icon
+                  icon="lucide:alert-circle"
+                  width="20"
+                ></iconify-icon>
+                Something went wrong. Please try emailing me directly.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+    <footer class="footer">
+      <div class="container">
+        <!-- Top row -->
+        <div class="footer__top">
+          <!-- Logo + tagline -->
+          <div class="footer__brand">
+            <a href="#hero" class="navbar__logo">
+              Az<span class="logo-accent">HA</span>yon<span class="logo-dot"
+                >.</span
+              >
+            </a>
+            <p class="footer__tagline">Always Learning. Always Building.</p>
+          </div>
+
+          <!-- Nav links -->
+          <nav class="footer__nav" aria-label="Footer navigation">
+            <a href="#about" class="footer__link">About</a>
+            <a href="#skills" class="footer__link">Skills</a>
+            <a href="#projects" class="footer__link">Projects</a>
+            <a href="#journey" class="footer__link">Journey</a>
+            <a href="#goals" class="footer__link">Goals</a>
+            <a href="#contact" class="footer__link">Contact</a>
+          </nav>
+
+          <!-- Socials -->
+          <div class="footer__socials">
+            <a
+              href="https://github.com/Azhayon"
+              target="_blank"
+              class="footer__social"
+              aria-label="GitHub"
+            >
+              <iconify-icon icon="mdi:github" width="20"></iconify-icon>
+            </a>
+            <a
+              href="https://linkedin.com/in/azhayon"
+              target="_blank"
+              class="footer__social"
+              aria-label="LinkedIn"
+            >
+              <iconify-icon icon="mdi:linkedin" width="20"></iconify-icon>
+            </a>
+            <a
+              href="mailto:azizulhakimayonsheikh@gmail.com"
+              class="footer__social"
+              aria-label="Email"
+            >
+              <iconify-icon icon="lucide:mail" width="20"></iconify-icon>
+            </a>
+          </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="footer__divider"></div>
+
+        <!-- Bottom row -->
+        <div class="footer__bottom">
+          <p class="footer__copy">
+            © 2026 MD. Azizul Hakim Ayon · Built with
+            <iconify-icon
+              icon="lucide:heart"
+              width="14"
+              style="color: #ef4444; vertical-align: middle"
+            ></iconify-icon>
+            in Bangladesh 🇧🇩
+          </p>
+          <a href="#hero" class="footer__back-top" aria-label="Back to top">
+            <iconify-icon icon="lucide:arrow-up" width="16"></iconify-icon>
+            Back to top
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- More sections will go here -->
+
+    <!-- Scripts -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/animations.js"></script>
+  </body>
+</html>
